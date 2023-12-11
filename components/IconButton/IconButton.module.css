@@ -1,0 +1,22 @@
+.button {
+    background-color: var(--tertiary);
+    transition: all 0.25s ease-out;
+    width: fit-content;
+    min-width: 130px;
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+    gap: 0.5rem;
+    align-items: center;
+    border-radius: 0.2rem;
+    filter: brightness(1);
+    cursor: pointer;
+    color: var(--secondary);
+    justify-content: center;
+    border: none;
+    font-size: 18px;
+}
+
+.button:hover {
+    transition: all 0.25s ease-out;
+    filter: brightness(0.9);
+}

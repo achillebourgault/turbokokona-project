@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+:root {
+  --primary: rgba(255, 65, 83, 0.99);
+  --secondary: wheat;
+  --tertiary: #7b0510fc;
+
+  --grey: #e3e0e0;
+  --white: #fff;
+  --black: #1a1111;
+
+  --bg-color-1: linear-gradient(45deg, #140a0a, #150204);
+  --bg-color-2: linear-gradient(45deg, #140a0a, #150204);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background: white;
+}

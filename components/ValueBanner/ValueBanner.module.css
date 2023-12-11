@@ -1,0 +1,111 @@
+﻿.container {
+    margin-bottom: 5%;
+}
+
+.header {
+    text-transform: uppercase;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    line-height: normal;
+    letter-spacing: 0;
+    clear: both;
+    color: var(--tertiary);
+    font-weight: 400;
+    font-size: 41px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: var(--primary);
+    line-height: 1.916;
+    display: block;
+    margin: 0;
+}
+
+.valuesBox {
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 62px;
+}
+
+.valueBox {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.valueBoxHeader {
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    gap: 28px;
+}
+
+.valueBoxHeader img {
+    height: 120px !important;
+    width: 120px !important;
+    display: flex;
+    place-self: center;
+    object-fit: contain;
+}
+
+.valueImage {
+    margin: auto;
+}
+
+.valueTitle {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.valueDescription {
+    font-size: 13px;
+}
+
+.button {
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    background-color: var(--tertiary);
+    color: white;
+    cursor: pointer;
+    width: 20%;
+    font-size: 15px;
+    padding: 4px 10px;
+    margin-inline: auto;
+    margin-block: 3%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.button:hover {
+    border: 1px solid var(--tertiary);
+    transition: all 0.3s ease;
+    background-color: transparent;
+    color: var(--tertiary);
+}
+
+@media screen and (max-width: 768px) {
+    .valuesBox {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .valueBox {
+        width: 100%;
+    }
+
+}

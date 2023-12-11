@@ -1,0 +1,259 @@
+.navbar, .navbarDark {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  color: white;
+  top: 0;
+  z-index: 999;
+  position: fixed;
+}
+
+.navbarDark {
+  background: black;
+}
+
+.left {
+  display: inline-flex;
+  gap: 52px;
+  align-items: center;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo span {
+  color: var(--secondary);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav_tabs {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: var(--grey);
+  transition: color 0.25s ease-out;
+}
+
+.nav_tabs:hover {
+  color: white;
+  transition: color 0.25s ease-out;
+}
+
+.nav_tabs::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav_tabs:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav_link {
+  display: flex;
+  gap: 22px;
+  color: var(--grey);
+}
+
+.nav_icon {
+  display: flex;
+  font-weight: bold;
+  gap: 32px;
+  padding-right: 26px;
+  align-items: center;
+}
+
+.nav_icon > svg {
+  color: var(--grey);
+  cursor: pointer;
+}
+
+
+.cartDetails {
+  background: white;
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0;
+  color: black;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  animation: fade 0.4s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cartDetailsHeader {
+  display: inline-flex;
+  width: 92%;
+  padding-left: 12px;
+  padding-right: 12px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #D9D9D9 solid 1px;
+}
+
+.cartDetailsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 182px;
+  width: 100%;
+}
+
+.cartDetailsFooter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 1px #dedede;
+}
+
+.cartProduct {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.cartProduct > div {
+  width: 50%;
+}
+
+.cartProductLogo {
+  padding: 8px !important;
+  background: #FFF9E6;
+  border-radius: 10px;
+}
+
+.navbarBg {
+  background: var(--black);
+  z-index: 997;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.button {
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  background-color: var(--tertiary);
+  color: white;
+  cursor: pointer;
+  width: auto;
+  font-size: 15px;
+  padding: 4px 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.button:hover {
+  border: 1px solid var(--tertiary);
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.subButton {
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  background-color: var(--secondary);
+  color: var(--black);
+  cursor: pointer;
+  width: 80%;
+  font-size: 15px;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.subButton:hover {
+  border: 1px solid var(--secondary);
+  transition: all 0.3s ease;
+  background-color: transparent;
+  color: var(--tertiary);
+}
+
+.subButton:disabled {
+  background-color: var(--grey);
+  cursor: unset;
+  color: var(--white);
+}
+
+.subButton:disabled:hover {
+  color: white;
+}
+
+.mobile_menu_icon {
+  display: none;
+  width: 82px;
+  height: 60px;
+}
+
+.mobile_menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar, .navbarDark {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .mobile_menu_icon {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile_menu {
+    display: flex;
+  }
+
+  .mobile_menu nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile_menu nav {
+    font-size: 26px;
+    position: absolute;
+    left: 0;
+  }
+
+  .nav_icon {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,272 @@
+﻿.container {
+    padding: 0;
+}
+
+.headerBreadcrumb {
+    padding: 22px 16px 16px 68px;
+    margin-top: 40px;
+}
+
+.headerBreadcrumb > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    display: inline-flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.headerBreadcrumb > span {
+    font-style: normal;
+    font-size: 26px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.headerBreadCrumbNav {
+    border-right: 0.15em solid #9F9F9F;
+    padding-right: 22px;
+    display: inline-flex;
+    gap: 18px;
+    height: 32px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.headerBreadCrumbNav > a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9F9F9F !important;
+}
+
+.headerBreadCrumbNav > a:hover {
+    color: #000000 !important;
+    transition: color 0.3s ease-out;
+}
+
+.productContent {
+    padding-top: 36px;
+    display: inline-flex;
+    gap: 22px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.productContentImageSection {
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.productContentSection {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.productTopInfos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.productTitles {
+    width: 70%;
+}
+
+.productTopFavoriteSection {
+
+}
+
+.favButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.favButton:hover:after {
+    position: absolute;
+    background-color: var(--secondary);
+    border: 1px solid black;
+    padding: 2px;
+    font-style: italic;
+    content: "Like this recipe";
+}
+
+.trashButton {
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.trashButton:hover:after {
+    position: absolute;
+    background-color: var(--secondary);
+    border: 1px solid black;
+    padding: 2px;
+    font-style: italic;
+    content: "Delete the recipe";
+}
+
+.unFavButton {
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    filter: invert(14%) sepia(32%) saturate(6767%) hue-rotate(332deg) brightness(79%) contrast(127%);
+}
+
+.productContentSectionDetailsTitle {
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-flex;
+    gap: 10px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.productContentSectionDetailsText {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.productImage {
+    left: 50%;
+    border-radius: 18px;
+}
+
+.productContent > div > h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: -6px;
+    margin-top: 0;
+}
+
+.productContent > div > span {
+    font-weight: 500;
+    font-size: 19px;
+    color: #9F9F9F;
+}
+
+.productCustomersData {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.productCustomersDataRating {
+    display: inline-flex;
+    padding-right: 42px;
+    border-right: #9F9F9F solid 0.13em;
+}
+
+.productCustomersDataReview {
+    font-weight: 400;
+    font-size: 16px;
+    color: #9F9F9F;
+    padding-left: 32px;
+}
+
+.productContentSectionDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.productMetaData {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 22px;
+    border-top: solid 0.18em #ededed;
+    padding-top: 26px;
+}
+
+.metadata{
+    margin: 0;
+    color: #9F9F9F;
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    justify-content: flex-start;
+}
+
+.metadata > span {
+    width: 156px;
+}
+
+.productInfo {
+    padding-block: 8px;
+    padding-inline: 62px;
+    text-align: center;
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    margin-inline: auto;
+    border-top: solid 0.18em #ededed;
+}
+
+.productInfo > p {
+    color: #777777;
+    font-size: 16px;
+}
+
+.productInfoNavigation {
+    display: inline-flex;
+    gap: 36px;
+    width: 100%;
+    color: #9F9F9F;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.productInfoNavigation > p {
+    cursor: pointer;
+}
+
+.productImages {
+    margin-top: 28px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-bottom: 42px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productContentSection {
+        width: 80%;
+    }
+
+    .productContentImageSection {
+        width: 86%;
+        align-items: center;
+    }
+
+    .headerBreadcrumb {
+        padding: 4px 22px;
+    }
+
+    .headerBreadcrumb > * {
+        font-size: 12px !important;
+    }
+
+    .productInfo {
+        padding-inline: 0;
+    }
+}
+

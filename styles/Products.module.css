@@ -1,0 +1,122 @@
+.container {
+  padding: 0;
+}
+
+.shopBanner {
+  width: 100%;
+  height: 316px;
+  background: url("https://cdn.discordapp.com/attachments/643198463915327488/1161710242061631578/Runway_2023-10-11T17_00_20.752Z_Expand_Image.jpg?ex=653949f9&is=6526d4f9&hm=64ac6b023444098dd125bb694ab86b942e2c5c0279121087c82b00491a29a3f2&");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopBanner > h3 {
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+.shopBanner > p {
+  margin-top: 0;
+}
+
+.shopBanner > p > span {
+  font-weight: bolder;
+}
+
+.productBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.productHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.productHeader :hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.shopGridWrapper {
+  width: 100%;
+}
+
+.shopGrid {
+  display: flex;
+  margin: 72px auto;
+  flex-wrap: wrap;
+  width: 80vw;
+  gap: 32px;
+  scale: 1;
+  transition: 0.3s;
+  justify-content: space-between;
+}
+
+.shopGrid > a:hover > div {
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.shopGrid > a {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-width: 175px;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.itemPrice {
+  font-style: italic;
+}
+
+.productsNavigation {
+  display: inline-flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 58px;
+}
+
+
+
+.productsNavigationPage, .productsNavigationPageNext {
+  padding: 8px;
+  background: #FFF9E6;
+  border-radius: 10px;
+  color: black;
+  min-width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.productsNavigationPage:hover, .productsNavigationPageNext:hover {
+  background: #FBEBB5;
+  transition: 0.3s;
+}
+
+.productsNavigationPageNext {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .shopGrid {
+    justify-content: center;
+  }
+}
+

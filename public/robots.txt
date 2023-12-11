@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.turbokokona.com
+
+# Sitemaps
+Sitemap: https://www.turbokokona.com/sitemap.xml

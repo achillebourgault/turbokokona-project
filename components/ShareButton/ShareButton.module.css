@@ -1,0 +1,19 @@
+.shareBtn {
+    padding: 14px;
+    width: 192px;
+    /*border: 1px solid #000000;*/
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Poppins';
+    background: white;
+    border: none;
+    box-shadow: rgb(149 157 165 / 20%) 0px 2px 6px;
+    transition: 0.22s ease-in-out;
+}
+
+.shareBtn:hover {
+    border: none;
+    transition: 0.32s ease-in-out;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}

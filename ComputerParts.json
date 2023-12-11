@@ -1,0 +1,44 @@
+{
+    "phone": [
+        {
+        "id": 1,
+        "name": "Turbokokona Classic",
+        "description": "Experience culinary excellence with the timeless Turbokokona Classic. This iconic cooking device combines tradition with innovation, making it a must-have for your kitchen.",
+        "image_url": "https://cdn.discordapp.com/attachments/1161703632861921441/1161703789225586760/ce47ac32-274b-4841-9521-a8df5785310d.jfif?ex=653943f6&is=6526cef6&hm=97e9a342b6fbffa79e517777ebaa6fc6e5bcd513c03f4dd18e27577aaa2d447f&",
+        "alt": "Turbokokona Classic - Timeless Culinary Craftsmanship",
+        "price": 600,
+        "currency": "EUR",
+        "content": ""
+        },
+        {
+        "id": 2,
+        "name": "Turbokokona Maxi",
+        "description": "Elevate your cooking capabilities with the Turbokokona Maxi. This powerhouse device offers maximum capacity and features, making it perfect for culinary enthusiasts and larger meals.",
+        "image_url": "https://cdn.discordapp.com/attachments/1161703632861921441/1161703761098580058/93cf8ae8-c57b-452b-852e-99bdb0470695.jfif?ex=653943f0&is=6526cef0&hm=ca276d5311a333647646e6ba23367a9f99854669d4fd532825d5ef979bd3e42d&",
+        "alt": "Turbokokona Maxi - Power Meets Capacity for Culinary Enthusiasts",
+        "price": 800,
+        "currency": "EUR",
+        "content": ""
+        },
+        {
+        "id": 3,
+        "name": "Turbokokona Entry Edition",
+        "description": "Begin your culinary journey with the Turbokokona Entry Edition. This entry-level cooking device is designed for ease of use and affordability, making it the perfect choice for those new to the world of Turbokokona.",
+        "image_url": "https://cdn.discordapp.com/attachments/1161703632861921441/1161703748670865428/8defe85c-2e7e-4ce5-91a8-bc2d4e3b3183.jfif?ex=653943ed&is=6526ceed&hm=9cc4e3c282183e076151156743cc5bf036e888f831730c49f31db19f30b25ce0&",
+        "alt": "Turbokokona Entry Edition - Your Perfect Start in Culinary Journey",
+        "price": 400,
+        "currency": "EUR",
+        "content": ""
+        },
+        {
+        "id": 4,
+        "name": "Nuclear Turbokokona",
+        "description": "Unleash the full potential of your culinary adventures with the Nuclear Turbokokona. This high-performance cooking device is designed to meet the most demanding cooking challenges, offering power and precision in every dish.",
+        "image_url": "https://cdn.discordapp.com/attachments/1161703632861921441/1161703747379007579/4b909b17-cebf-45c7-afbf-764e836056a6.jfif?ex=653943ec&is=6526ceec&hm=d62bef0cd48c59c55cb064edda35c257d72d97148fa10459533665770d86a184&",
+        "alt": "Nuclear Turbokokona - High-Performance Culinary Powerhouse",
+        "price": 1500,
+        "currency": "EUR",
+        "content": ""
+        }
+    ]
+}
