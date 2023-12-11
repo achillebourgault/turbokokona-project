@@ -7,7 +7,7 @@ Turbokokona is an educational project aimed at creating a website optimized for 
 
 ## Demo
 
-[turbokokona.com](https://github.com/achillebourgault/turbokokona)
+[turbokokona.com](https://turbokokona.com)
 
 ## Features
 
