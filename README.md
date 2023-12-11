@@ -43,3 +43,17 @@ Follow these steps to get Turbokokona up and running on your local machine:
 
 4. **Access the Website:**
    Open your browser and navigate to `http://localhost:3000` to view the Turbokokona website.
+
+## Authors
+
+👤 **Achille Bourgault**
+
+* Github: [@achillebourgault](https://github.com/achillebourgault)
+
+👤 **Baptiste Morvan**
+
+* Github: [@baptistemorvan](https://github.com/baptistemorvan)
+
+👤 **Esteban Costa**
+
+* Github: [@estebanepitech](https://github.com/EstebanEpitech)
