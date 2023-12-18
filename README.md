@@ -5,10 +5,6 @@
 Turbokokona is an educational project aimed at creating a website optimized for SEO and implementing Progressive Web App (PWA) features.
 <br />The project includes the implementation of a Service Worker for offline functionality, push notifications, caching strategies, and more.
 
-## Demo
-
-[turbokokona.com](https://turbokokona.com)
-
 ## Features
 
 - **SEO Optimization:** The website is designed with Search Engine Optimization (SEO) in mind, ensuring that it ranks well in search engine results.
